@@ -1,0 +1,20 @@
+.drag-space{
+    border: 3px dotted black;
+    width: 400px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    height: 300px;
+}
+.drag-space:hover{
+    background-color: #ccc;
+}
+#btn{
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn:hover{
+    background-color: beige;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade RIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <label for="produto">Itens para acrescentar na lista de compra:</label>
+        <input type="text" name="item" id="item" placeholder="Digite um produto"> <input type="button" value="Adicionar item" onclick="adicionaItem(event)" id="btn" >
+        <p>Lista de compra: </p>
+        <ul id="lista-compras">
+
+        </ul>
+        <div class="drag-space" ondrop="drop(event)" ondragover="allowDrop(event)" id = "div1">
+            <p>Carrinho de Compra (arraste os itens aqui)</p>
+        </div>
+    </form>
+</body>
+<script src="app.js"></script>
+</html>
